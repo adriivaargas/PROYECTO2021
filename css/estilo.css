@@ -1,42 +1,47 @@
 h1{
+	
 	color: violet;
 }
 #cabecera{
 	position: absolute;
-	top: 2%;
-	left: 2%;
-	height: 10%;
-	width: 93%;
-	background-color: green;
+    top: 3%;
+    left: 1%;
+    height: 65;
+    width: 95%;
+    background-color: ffc990;
 }
 #indice{
 	position: absolute;
-	top: 13%;
-	left: 2%;
-	height: 25%;
-	width: 75%;
-	background-color: lightgreen;
+	top: 110%;
+	left: 0%;
+	height: 782%;
+	width: 69%;
+	background-color: f790ff;
 }
 #contenido{
 	position: absolute;
-	top: 13%;
-	left: 30%;
-	height: 65%;
-	width: 75%;
-	background-color:lightblue;
+	top: 110%;
+	left: 70%;
+	height: 100%;
+	width: 30%;
+	background-color:00ffff;
 }
 #piedepagina{
+	position: absolute;
+	top: 900%;
+	left: 0%;
+	height: 50%;
+	width: 46%;
+	background-color: grey;
+}
+#contenido img{
 	position: absolute;
 	top: 89%;
 	left: 30%;
 	height: 10%;
 	width: 65%;
-	background-color: grey;
-}
-
-#button{
-	padding: 0;
 }
 #button li{
 	display: inline;
 }
+
