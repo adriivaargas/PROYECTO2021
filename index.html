@@ -1,34 +1,56 @@
 <html>
 	<head>
+		<title>adriinailss</title>
+	</head>
+	<head>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 	</head>
 	<body>
 		
 		<div id="cabecera">
-			bienvenidos a la pagina adriinails
+			 .
 		<div/>
 			<div id="indice">
 				<nav>
 					<ul>
-						<li><a href="#">inicio</a></li>
-						<li><a href="#">uñas acrilicas</a></li>
-						<li><a href="#">uñas de gel</a></li>
-						<li><a href="#">penicura</a></li>
-						<li><a href="#">contactos</a></li>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Uñas acrilicas</a></li>
+						<li><a href="#">Uñas de gel</a></li>
+						<li><a href="#">Penicura</a></li>
+						<li><a href="#">Tipos de uñas</a></li>
+						<li><a href="#">Contactos</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div id="contenido">
-				En esta pagina podeis encontrar diferentes servicios de manicura y penicura a buenos precios y de calidad.
-			</div>
-			<div id="piedepagina">
-				Aqui teneis mis redes sociales 
+				En esta pagina podeis encontrar diferentes servicios de manicura y penicura a buenos precios y de calidad.Aqui teneis mis redes sociales 
 				Instagram: @adriinailss
 				gmail: adriinailss@gmail.com
 			</div>
+			<center> <div class="n"><p>    <b><font color="black" face="georgia" size="4"><marquee width="400" scrollamount="5" bgcolor="f790ff">adriinailss</marquee></font></b></p></center>
 			<div>
 			<img class="original" src="imagenes/nails.jpg" alt="uñas"
 		</div>
+		<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">tu nombre:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">numero de telefono:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">tipo de diseño:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="enviar mensaje" />
+</form>
 	</body>
 </html>
