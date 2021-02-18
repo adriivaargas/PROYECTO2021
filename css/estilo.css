@@ -13,9 +13,9 @@ h1{
 #indice{
 	position: absolute;
 	top: 110%;
-	left: 0%;
+	left: 34%;
 	height: 782%;
-	width: 69%;
+	width: 35%;
 	background-color: f790ff;
 }
 #contenido{
@@ -29,7 +29,7 @@ h1{
 #piedepagina{
 	position: absolute;
 	top: 900%;
-	left: 0%;
+	left: 34%;
 	height: 50%;
 	width: 46%;
 	background-color: grey;
@@ -44,4 +44,3 @@ h1{
 #button li{
 	display: inline;
 }
-
